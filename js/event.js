@@ -30,3 +30,15 @@ function makePink1(){
 document.getElementById('make-tomato').addEventListener('click', function(){
     document.body.style.backgroundColor = 'tomato';
 })
+
+
+function onClickHandle(){
+    const onclickHandle = document.getElementById('event-handle');
+    onclickHandle.innerText ='change by js';
+
+}
+
+document.getElementById('add-event').addEventListener('click', function addEvent(){
+    const addEvent = document.getElementById('event-handle');
+ addEvent.innerText = 'chnge by js pro';
+})
