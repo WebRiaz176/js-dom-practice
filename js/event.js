@@ -1,3 +1,4 @@
+//section-1
 function makeGreen(){
     document.body.style.backgroundColor = 'green';
 }
@@ -32,6 +33,8 @@ document.getElementById('make-tomato').addEventListener('click', function(){
 })
 
 
+
+//section-2
 function onClickHandle(){
     const onclickHandle = document.getElementById('event-handle');
     onclickHandle.innerText ='change by js';
@@ -42,3 +45,16 @@ document.getElementById('add-event').addEventListener('click', function addEvent
     const addEvent = document.getElementById('event-handle');
  addEvent.innerText = 'chnge by js pro';
 })
+
+
+//section-3
+document.getElementById('event-add').addEventListener('click', function(){
+    const inputField = document.getElementById('input-text');
+    const inputText = inputField.value;
+
+    const p = document.getElementById('para');
+    p.innerText=inputText;
+    inputField.value='';
+})
+
+
