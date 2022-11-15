@@ -13,3 +13,20 @@ const makeYellow = document.getElementById('make-yellow');
 makeYellow.onclick= function(){
     document.body.style.backgroundColor = 'yellow';
 }
+
+
+const makePurple = document.getElementById('make-purple');
+makePurple.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'purple';
+})
+
+const makePink = document.getElementById('make-pink');
+makePink.addEventListener('click', makePink1);
+
+function makePink1(){
+    document.body.style.backgroundColor = 'pink';
+}
+
+document.getElementById('make-tomato').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'tomato';
+})
